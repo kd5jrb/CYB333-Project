@@ -7,9 +7,10 @@ the integrity of a file using hash algorithms available on all operating systems
 will provide return values for md5, sha1, sha224, sha256, sha384, sha512. 
 
 # Example Command - Works with file in repository:
+```
               script:      file:                          expected hash:
 python.exe checkhash.py sample.txt EF537F25C895BFA782526529A9B63D97AA631564D5D789C2B765448C8635FB6C
-
+```
 # Try it out on other files!
 A great place to download Python Project is the Python Package Index (PyPI) URL: https://pypi.org/
 Find an interesting package to download and make sure to view and use the hashes with this program
